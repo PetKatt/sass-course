@@ -1,0 +1,29 @@
+{
+  "name": "sass-course",
+  "version": "1.0.0",
+  "description": "The Starter course for Sass.",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run gulp\" \"npm run lite\"",
+    "lite": "lite-server",
+    "gulp": "gulp",
+    "gulp-watch": "gulp styles:watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PetKatt/sass-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PetKatt/sass-course/issues"
+  },
+  "homepage": "https://github.com/PetKatt/sass-course#readme",
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "lite-server": "^2.3.0"
+  }
+}
