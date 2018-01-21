@@ -58,5 +58,5 @@ typings/
 .env
 
 # project production folders
-css
+css/
 
